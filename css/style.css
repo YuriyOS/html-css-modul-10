@@ -2,7 +2,7 @@
     font-family: 'Kaushan Script';
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/kaushan-script-v8-latin-regular.woff);
+    src: url(../fonts/kaushan-script-v8-latin-regular.woff);
 }
 
 
@@ -97,7 +97,7 @@
 .intro {
     padding: 190px 0px 230px;
     text-align: center;
-    background-image: url('/img/bg_1_eagle.jpg');
+    background-image: url('../img/bg_1_eagle.jpg');
     background-position: center;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
@@ -106,7 +106,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .intro {
-        background-image: url(/img/bg_1_eagle@2x.jpg);
+        background-image: url(../img/bg_1_eagle@2x.jpg);
     }
 }
 
@@ -212,22 +212,22 @@
 }
 
 .services-list__item--alarm::before {
-    background-image: url(/img/services_icons/ALARM.png);
+    background-image: url(../img/services_icons/ALARM.png);
 }
 .services-list__item--line::before {
-    background-image: url(/img/services_icons/LINE_GRAPH.png);
+    background-image: url(../img/services_icons/LINE_GRAPH.png);
 }
 .services-list__item--computer::before {
-    background-image: url(/img/services_icons/COMPUTER_OK.png);
+    background-image: url(../img/services_icons/COMPUTER_OK.png);
 }
 .services-list__item--book::before {
-    background-image: url(/img/services_icons/BOOK_2.png);
+    background-image: url(../img/services_icons/BOOK_2.png);
 }
 .services-list__item--home::before {
-    background-image: url(/img/services_icons/HOME.png);
+    background-image: url(../img/services_icons/HOME.png);
 }
 .services-list__item--image::before {
-    background-image: url(/img/services_icons/IMAGE.png);
+    background-image: url(../img/services_icons/IMAGE.png);
 }
 
 .services-list__title {
